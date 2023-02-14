@@ -1,0 +1,25 @@
+<idea-plugin>
+    <id>org.example.PrivacyCheck</id>
+    <name>Privado Privacy Check</name>
+    <vendor email="chenlyuz@andrew.cmu.edu" url="http://www.cmu.edu">Carnegie Mellon University</vendor>
+
+    <description><![CDATA[
+    Enter short description for your plugin here.<br>
+    <em>most HTML tags may be used</em>
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="helloworld" class="actions.HelloWorldAction" text="Privacy check">
+            <add-to-group group-id="ToolsMenu" anchor="first"></add-to-group>
+        </action>
+    </actions>
+</idea-plugin>
